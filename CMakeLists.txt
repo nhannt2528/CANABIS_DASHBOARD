@@ -38,6 +38,7 @@ else()
     else()
         add_executable(CANABIS_DASHBOARD
             ${PROJECT_SOURCES}
+            icon/button_on.png
         )
     endif()
 endif()
