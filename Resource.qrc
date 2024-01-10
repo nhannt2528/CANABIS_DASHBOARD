@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/button_off.png</file>
+        <file>icon/button_on.png</file>
+        <file>icon/CO2.png</file>
+        <file>icon/Connect.png</file>
+        <file>icon/Hygrometer.png</file>
+        <file>icon/Temperature.png</file>
+        <file>icon/logo 1.png</file>
+        <file>icon/Proximity Sensor.png</file>
+    </qresource>
+</RCC>
