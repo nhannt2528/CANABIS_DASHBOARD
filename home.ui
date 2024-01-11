@@ -258,6 +258,39 @@ color: #8A8A8A</string>
        <pixmap resource="Resource.qrc">:/icon/Temperature.png</pixmap>
       </property>
      </widget>
+     <widget class="QLabel" name="humiLable_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>27.6</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>humiLable_7</zorder>
+     <zorder>tempLable</zorder>
+     <zorder>iconTemp</zorder>
     </widget>
     <widget class="QWidget" name="humiWidget" native="true">
      <property name="geometry">
@@ -317,6 +350,39 @@ color: #8A8A8A</string>
        <pixmap resource="Resource.qrc">:/icon/Hygrometer.png</pixmap>
       </property>
      </widget>
+     <widget class="QLabel" name="humiLable_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>80</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>humiLable_8</zorder>
+     <zorder>humiLable</zorder>
+     <zorder>iconTemp_2</zorder>
     </widget>
     <widget class="QWidget" name="co2Widget" native="true">
      <property name="geometry">
@@ -379,6 +445,39 @@ color: #8A8A8A</string>
        <pixmap resource="Resource.qrc">:/icon/CO2.png</pixmap>
       </property>
      </widget>
+     <widget class="QLabel" name="humiLable_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>1120</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>humiLable_9</zorder>
+     <zorder>co2Lable</zorder>
+     <zorder>iconTemp_3</zorder>
     </widget>
     <widget class="QWidget" name="vpdWidget" native="true">
      <property name="geometry">
@@ -438,6 +537,39 @@ color: #8A8A8A</string>
        <pixmap resource="Resource.qrc">:/icon/Connect.png</pixmap>
       </property>
      </widget>
+     <widget class="QLabel" name="humiLable_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>1.44</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>humiLable_10</zorder>
+     <zorder>vdpLable</zorder>
+     <zorder>iconTemp_4</zorder>
     </widget>
     <widget class="QLabel" name="enviromentLable_2">
      <property name="geometry">
@@ -482,8 +614,8 @@ color: #8A8A8A</string>
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>50</width>
-        <height>50</height>
+        <width>61</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -491,6 +623,146 @@ color: #8A8A8A</string>
 image: url(:/icon/Proximity Sensor.png);</string>
       </property>
      </widget>
+     <widget class="QLabel" name="humiLable_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>EC Sensor</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="humiLable_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>2.2 - 89%</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(30, 30, 30);
+image: url(:/icon/Proximity Sensor.png);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="humiLable_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>EC Sensor</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="humiLable_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>2.2 - 89%</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>humiLable_5</zorder>
+     <zorder>humiLable_6</zorder>
+     <zorder>humiLable_4</zorder>
+     <zorder>humiLable_3</zorder>
+     <zorder>widget_4</zorder>
+     <zorder>widget_5</zorder>
     </widget>
     <widget class="QWidget" name="humiWidget_3" native="true">
      <property name="geometry">
@@ -534,6 +806,225 @@ color: #8A8A8A</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>70</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(30, 30, 30);
+border-radius:5px</string>
+      </property>
+      <widget class="QLabel" name="co2Lable_2">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>inter</family>
+         <pointsize>16</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:inter;
+color: #8A8A8A</string>
+       </property>
+       <property name="text">
+        <string>On</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>50</y>
+        <width>70</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(116, 9, 9);
+border-radius:5px</string>
+      </property>
+      <widget class="QLabel" name="co2Lable_3">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>inter</family>
+         <pointsize>16</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:inter;
+color: #8A8A8A</string>
+       </property>
+       <property name="text">
+        <string>Auto</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>50</y>
+        <width>70</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(30, 30, 30);
+border-radius:5px</string>
+      </property>
+      <widget class="QLabel" name="co2Lable_4">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>inter</family>
+         <pointsize>16</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:inter;
+color: #8A8A8A</string>
+       </property>
+       <property name="text">
+        <string>Off</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_8" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(53, 132, 228);</string>
+      </property>
+      <widget class="QLabel" name="humiLable_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>inter</family>
+         <pointsize>30</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>800</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>100</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #F86666
+</string>
+      </property>
+      <widget class="QLabel" name="humiLable_12">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>inter</family>
+         <pointsize>30</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>800</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="widget_2" native="true">
      <property name="geometry">
@@ -547,6 +1038,166 @@ color: #8A8A8A</string>
      <property name="styleSheet">
       <string notr="true">background-image: url(:/icon/logo 1.png);</string>
      </property>
+    </widget>
+    <widget class="QWidget" name="humiWidget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>170</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+     <widget class="QLabel" name="humiLable_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>171</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>inter</family>
+        <pointsize>48</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:inter;
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>42</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="enviromentLable_3">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>260</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>inter</family>
+       <pointsize>18</pointsize>
+       <italic>false</italic>
+       <strikeout>false</strikeout>
+       <kerning>false</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:inter;
+color: #8A8A8A</string>
+     </property>
+     <property name="text">
+      <string>Devices</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="humiWidget_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>300</y>
+       <width>191</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>99</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Đèn</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Bơm</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Khuấy</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Tưới</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>CO2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Xả</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>RO</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>0</y>
+        <width>91</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+     </widget>
     </widget>
    </widget>
   </widget>
