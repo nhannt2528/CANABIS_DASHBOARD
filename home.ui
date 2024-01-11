@@ -1134,7 +1134,10 @@ color: #8A8A8A</string>
         <number>0</number>
        </property>
        <property name="leftMargin">
-        <number>10</number>
+        <number>20</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
        </property>
        <item>
         <widget class="QLabel" name="label_2">
@@ -1190,9 +1193,9 @@ color: #8A8A8A</string>
      <widget class="QWidget" name="verticalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>120</x>
         <y>0</y>
-        <width>91</width>
+        <width>71</width>
         <height>261</height>
        </rect>
       </property>
