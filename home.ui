@@ -90,8 +90,13 @@ background-color: #1E1E1E
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/icon/Home.png);
-background-color: rgba(191, 64, 64, 0);</string>
+      <string notr="true">QPushButton{
+image: url(:/icon/Home.png);
+background-color: rgba(191, 64, 64, 0);
+}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 0)
+}</string>
      </property>
      <property name="text">
       <string/>
@@ -107,8 +112,14 @@ background-color: rgba(191, 64, 64, 0);</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/icon/Settings.png);
-background-color: rgba(191, 64, 64, 0);</string>
+      <string notr="true">
+QPushButton{
+image: url(:/icon/Settings.png);
+background-color: rgba(191, 64, 64, 0);
+}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 0)
+}</string>
      </property>
      <property name="text">
       <string/>
@@ -1804,7 +1815,7 @@ QPushButton::pressed{
       <widget class="QWidget" name="widget_11" native="true">
        <property name="geometry">
         <rect>
-         <x>740</x>
+         <x>730</x>
          <y>160</y>
          <width>191</width>
          <height>351</height>
