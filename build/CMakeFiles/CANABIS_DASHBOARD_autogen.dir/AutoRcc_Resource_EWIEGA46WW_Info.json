@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build/CANABIS_DASHBOARD_autogen",
+	"CMAKE_BINARY_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD",
+	"CMAKE_SOURCE_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD",
+	"INCLUDE_DIR" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build/CANABIS_DASHBOARD_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/button_on.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/CO2.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Settings.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Temperature.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/logo 1.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Proximity Sensor.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/button_off.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Connect.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Hygrometer.png",
+		"/home/nhan/Desktop/CANABIS_DASHBOARD/icon/Home.png"
+	],
+	"LOCK_FILE" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build/CMakeFiles/CANABIS_DASHBOARD_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "/home/nhan/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/nhan/Desktop/CANABIS_DASHBOARD/build/CMakeFiles/CANABIS_DASHBOARD_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/nhan/Desktop/CANABIS_DASHBOARD/Resource.qrc",
+	"VERBOSITY" : 0
+}
