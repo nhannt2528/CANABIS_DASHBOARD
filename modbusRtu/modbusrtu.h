@@ -29,13 +29,13 @@ public:
     bool connectDevice();
     void disconnectDevice();
     modbus_status_t readCoils(uint8_t slaveID, uint8_t startAddress, int count, bool *data);
-    void readDiscreteInputs(uint8_t slaveID, uint8_t startAddress, int count);
-    void readHoldingRegisters(uint8_t slaveID, uint8_t startAddress, int count);
-    void readInputRegisters(uint8_t slaveID, uint8_t startAddress, int count);
+    modbus_status_t readDiscreteInputs(uint8_t slaveID, uint8_t startAddress, int count, bool *data);
+    modbus_status_t readHoldingRegisters(uint8_t slaveID, uint8_t startAddress, int count, uint16_t *data);
+    modbus_status_t readInputRegisters(uint8_t slaveID, uint8_t startAddress, int count, uint16_t *data);
 
-    void writeCoils(uint8_t slaveID, uint8_t startAddress, const QVector<bool> &coils);
-    void writeSingleCoil(uint8_t slaveID, uint8_t coilAddress, bool value);
-    void writeHoldingRegister(uint8_t slaveID, uint8_t regAddress, quint16 value);
+    modbus_status_t writeCoils(uint8_t slaveID, uint8_t startAddress, uint8_t count, bool *data);
+    modbus_status_t writeSingleCoil(uint8_t slaveID, uint8_t coilAddress, bool value);
+    modbus_status_t writeHoldingRegister(uint8_t slaveID, uint8_t regAddress, uint8_t count, uint16_t data);
     void writeMultipleCoils(uint8_t slaveID, uint8_t startAddress, const QVector<bool> &coils);
     void writeMultipleHoldingRegisters(uint8_t slaveID, uint8_t startAddress, const QVector<quint16> &registers);
 

@@ -1150,9 +1150,9 @@ color: #8A8A8A</string>
        <widget class="QWidget" name="verticalLayoutWidget">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>18</x>
           <y>0</y>
-          <width>99</width>
+          <width>81</width>
           <height>261</height>
          </rect>
         </property>
@@ -1168,8 +1168,14 @@ color: #8A8A8A</string>
          </property>
          <item>
           <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
            <property name="text">
-            <string>Đèn</string>
+            <string>Đèn   </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
            </property>
           </widget>
          </item>
@@ -1220,13 +1226,84 @@ color: #8A8A8A</string>
        <widget class="QWidget" name="verticalLayoutWidget_2">
         <property name="geometry">
          <rect>
-          <x>120</x>
+          <x>105</x>
           <y>0</y>
-          <width>71</width>
+          <width>91</width>
           <height>261</height>
          </rect>
         </property>
-        <layout class="QVBoxLayout" name="verticalLayout_2"/>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="light_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_on.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="pump_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="khuay_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="tuoi_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="co2_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="xa_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="ro_state">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </widget>
       </widget>
      </widget>

@@ -10,5 +10,7 @@
         <file>icon/Proximity Sensor.png</file>
         <file>icon/Home.png</file>
         <file>icon/Settings.png</file>
+        <file>icon/icon_state_off.png</file>
+        <file>icon/icon_state_on.png</file>
     </qresource>
 </RCC>
