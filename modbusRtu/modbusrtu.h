@@ -15,8 +15,8 @@ class ModbusRtu : public QObject
 {
     Q_OBJECT
 private:
-    QSerialPort *serialPort;
-    QModbusRtuSerialMaster *modbusMaster;
+    QSerialPort serialPort;
+    QModbusRtuSerialMaster modbusMaster;
 public:
    typedef enum{
         READ_SUCCESS,
@@ -28,7 +28,7 @@ public:
     explicit ModbusRtu(QObject *parent = nullptr);
     bool connectDevice();
     void disconnectDevice();
-    modbus_status_t readCoils(uint8_t slaveID, uint8_t startAddress, int count);
+    modbus_status_t readCoils(uint8_t slaveID, uint8_t startAddress, int count, bool *data);
     void readDiscreteInputs(uint8_t slaveID, uint8_t startAddress, int count);
     void readHoldingRegisters(uint8_t slaveID, uint8_t startAddress, int count);
     void readInputRegisters(uint8_t slaveID, uint8_t startAddress, int count);
