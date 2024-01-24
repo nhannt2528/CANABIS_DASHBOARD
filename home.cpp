@@ -15,21 +15,21 @@ Home::~Home()
 void Home::on_onButton_clicked()
 {
     ui->onButton->setStyleSheet("background-color: rgba(104, 11, 11, 177);");
-    ui->autoButton->setStyleSheet("background-color: #1E1E1E;");
-    ui->offButton->setStyleSheet("background-color: #1E1E1E;");
+    ui->autoButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
+    ui->offButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
 
 }
 void Home::on_autoButton_clicked()
 {
     ui->autoButton->setStyleSheet("background-color: rgba(104, 11, 11, 177);");
-    ui->onButton->setStyleSheet("background-color: #1E1E1E;");
-    ui->offButton->setStyleSheet("background-color: #1E1E1E;");
+    ui->onButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
+    ui->offButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
 }
 void Home::on_offButton_clicked()
 {
     ui->offButton->setStyleSheet("background-color: rgba(104, 11, 11, 177);");
-    ui->onButton->setStyleSheet("background-color: #1E1E1E;");
-    ui->autoButton->setStyleSheet("background-color: #1E1E1E;");
+    ui->onButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
+    ui->autoButton->setStyleSheet("background-color: #D1C1A0;color: rgb(0, 0, 0);");
 }
 
 

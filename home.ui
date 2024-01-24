@@ -32,7 +32,7 @@ background-color: rgb(0, 0, 0);
 background: transparent;
 padding:0;
 margin:0;
-color: #fff;
+color: #D8CDB7;
 
 }
 #centralwidget{
@@ -40,7 +40,7 @@ color: #fff;
 }
 
 #left{
-background-color: #1E1E1E
+background-color: #D8CDB7
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -66,7 +66,7 @@ background-color: #1E1E1E
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">background-color: rgb(218, 206, 180);</string>
    </property>
    <widget class="QWidget" name="left" native="true">
     <property name="geometry">
@@ -78,7 +78,7 @@ background-color: #1E1E1E
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(30, 30, 30);</string>
+     <string notr="true">background-color: #EFE3CA;</string>
     </property>
     <widget class="QPushButton" name="homeButton">
      <property name="geometry">
@@ -95,7 +95,7 @@ image: url(:/icon/Home.png);
 background-color: rgba(191, 64, 64, 0);
 }
 QPushButton:pressed {
-	background-color: rgb(0, 0, 0)
+	background-color: #D1C1A0;
 }</string>
      </property>
      <property name="text">
@@ -118,7 +118,7 @@ image: url(:/icon/Settings.png);
 background-color: rgba(191, 64, 64, 0);
 }
 QPushButton:pressed {
-	background-color: rgb(0, 0, 0)
+	background-color:  #D1C1A0;
 }</string>
      </property>
      <property name="text">
@@ -136,7 +136,7 @@ QPushButton:pressed {
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1E1E1E</string>
+     <string notr="true">background-color: #DACEB4</string>
     </property>
     <widget class="QWidget" name="pageHome">
      <widget class="QWidget" name="body" native="true">
@@ -149,7 +149,7 @@ QPushButton:pressed {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(30, 30, 30);
+       <string notr="true">background-color: #EFE3CA;
 padding:0px;
 border-radius:5px;</string>
       </property>
@@ -163,7 +163,7 @@ border-radius:5px;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);
+        <string notr="true">background-color:#DACEB4;
 border-radius:5px</string>
        </property>
        <widget class="QLabel" name="roomName">
@@ -203,7 +203,7 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: #171717;
+        <string notr="true">background-color: #D1C1A0;
 border-radius:10px</string>
        </property>
        <widget class="QLabel" name="timeLable">
@@ -222,7 +222,8 @@ border-radius:10px</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">font-family: Inter</string>
+         <string notr="true">font-family: Inter;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>9:48</string>
@@ -268,7 +269,7 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="tempLable">
         <property name="geometry">
@@ -309,11 +310,17 @@ color: #8A8A8A</string>
           <height>91</height>
          </rect>
         </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
         <property name="text">
          <string/>
         </property>
         <property name="pixmap">
          <pixmap resource="Resource.qrc">:/icon/Temperature.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="QLabel" name="humiLable_7">
@@ -337,7 +344,7 @@ color: #8A8A8A</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>27.6</string>
@@ -360,7 +367,7 @@ color:rgb(255, 255, 255)</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="humiLable">
         <property name="geometry">
@@ -429,7 +436,7 @@ color: #8A8A8A</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>80</string>
@@ -452,7 +459,7 @@ color:rgb(255, 255, 255)</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="co2Lable">
         <property name="geometry">
@@ -524,7 +531,7 @@ color: #8A8A8A</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>1120</string>
@@ -547,7 +554,7 @@ color:rgb(255, 255, 255)</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="vdpLable">
         <property name="geometry">
@@ -616,7 +623,7 @@ color: #8A8A8A</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>1.44</string>
@@ -665,7 +672,7 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QWidget" name="widget_4" native="true">
         <property name="geometry">
@@ -677,7 +684,7 @@ color: #8A8A8A</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);
+         <string notr="true">background-color: #D1C1A0;
 image: url(:/icon/Proximity Sensor.png);</string>
         </property>
        </widget>
@@ -702,7 +709,7 @@ image: url(:/icon/Proximity Sensor.png);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>EC Sensor</string>
@@ -732,7 +739,7 @@ color:rgb(255, 255, 255)</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>2.2 - 89%</string>
@@ -751,7 +758,7 @@ color:rgb(255, 255, 255)</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);
+         <string notr="true">background-color: #D1C1A0;
 image: url(:/icon/Proximity Sensor.png);</string>
         </property>
        </widget>
@@ -776,7 +783,7 @@ image: url(:/icon/Proximity Sensor.png);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>EC Sensor</string>
@@ -806,7 +813,7 @@ color:rgb(255, 255, 255)</string>
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>2.2 - 89%</string>
@@ -832,7 +839,7 @@ color:rgb(255, 255, 255)</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="humiLable_2">
         <property name="geometry">
@@ -962,7 +969,8 @@ color:rgb(255, 255, 255)</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton{
-background-color: #1E1E1E
+background-color: #D1C1A0;
+	color: rgb(0, 0, 0);
 }
 QPushButton::pressed{
 	background-color: rgba(104, 11, 11, 177)
@@ -995,7 +1003,8 @@ QPushButton::pressed{
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton{
-background-color: #1E1E1E
+background-color: #D1C1A0;
+	color: rgb(0, 0, 0);
 }
 
 QPushButton::pressed{
@@ -1029,7 +1038,8 @@ QPushButton::pressed{
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton{
-background-color: #1E1E1E
+background-color: #D1C1A0;
+	color: rgb(0, 0, 0);
 }
 
 QPushButton::pressed{
@@ -1076,7 +1086,7 @@ QPushButton::pressed{
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QLabel" name="humiLable_13">
         <property name="geometry">
@@ -1099,7 +1109,7 @@ QPushButton::pressed{
         </property>
         <property name="styleSheet">
          <string notr="true">font-family:inter;
-color:rgb(255, 255, 255)</string>
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>42</string>
@@ -1145,12 +1155,12 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color:#DACEB4</string>
        </property>
        <widget class="QWidget" name="verticalLayoutWidget">
         <property name="geometry">
          <rect>
-          <x>18</x>
+          <x>0</x>
           <y>0</y>
           <width>81</width>
           <height>261</height>
@@ -1168,8 +1178,13 @@ color: #8A8A8A</string>
          </property>
          <item>
           <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
            <property name="styleSheet">
-            <string notr="true"/>
+            <string notr="true">color: rgb(0, 0, 0);</string>
            </property>
            <property name="text">
             <string>Đèn   </string>
@@ -1181,6 +1196,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label_6">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>Bơm</string>
            </property>
@@ -1188,6 +1211,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label_7">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>Khuấy</string>
            </property>
@@ -1195,6 +1226,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>Tưới</string>
            </property>
@@ -1202,6 +1241,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>CO2</string>
            </property>
@@ -1209,6 +1256,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>Xả</string>
            </property>
@@ -1216,6 +1271,14 @@ color: #8A8A8A</string>
          </item>
          <item>
           <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
            <property name="text">
             <string>RO</string>
            </property>
@@ -1319,7 +1382,7 @@ color: #8A8A8A</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(30, 30, 30);
+       <string notr="true">background-color: #EFE3CA;
 padding:0px;
 border-radius:5px;</string>
       </property>
@@ -1333,7 +1396,7 @@ border-radius:5px;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);
+        <string notr="true">background-color:#DACEB4;
 border-radius:5px</string>
        </property>
        <widget class="QLabel" name="roomName_2">
@@ -1373,7 +1436,7 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: #171717;
+        <string notr="true">background-color: #D1C1A0;
 border-radius:10px</string>
        </property>
        <widget class="QLabel" name="timeLable_2">
@@ -1392,7 +1455,8 @@ border-radius:10px</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">font-family: Inter</string>
+         <string notr="true">font-family: Inter;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="text">
          <string>9:48</string>
@@ -1425,7 +1489,7 @@ border-radius:10px</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0,0,0);</string>
+        <string notr="true">background-color:#DACEB4;</string>
        </property>
        <widget class="QLabel" name="enviromentLable_5">
         <property name="geometry">
@@ -1504,7 +1568,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30,30,30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1531,7 +1596,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30,30,30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1594,7 +1660,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30,30,30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1621,7 +1688,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30,30,30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1644,7 +1712,7 @@ color: #8A8A8A</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(0,0,0);</string>
+        <string notr="true">background-color:#DACEB4;</string>
        </property>
        <widget class="QLabel" name="enviromentLable_6">
         <property name="geometry">
@@ -1705,7 +1773,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1729,7 +1798,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1771,7 +1841,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1813,7 +1884,8 @@ color: #8A8A8A</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(30, 30, 30);</string>
+         <string notr="true">background-color: #D1C1A0;
+color: rgb(0, 0, 0);</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1834,7 +1906,8 @@ color: #8A8A8A</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
-background-color: rgb(0,0,0)
+background-color: #D1C1A0;
+color: rgb(0, 0, 0);
 }
 QPushButton::pressed{
 	background-color: rgba(104, 11, 11, 177)
@@ -1867,7 +1940,8 @@ QPushButton::pressed{
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
-background-color: rgb(0,0,0)
+background-color: #D1C1A0;
+color: rgb(0, 0, 0);
 }
 QPushButton::pressed{
 	background-color: rgba(104, 11, 11, 177)
@@ -1887,19 +1961,6 @@ QPushButton::pressed{
        </property>
        <property name="autoExclusive">
         <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QWidget" name="widget_11" native="true">
-       <property name="geometry">
-        <rect>
-         <x>730</x>
-         <y>160</y>
-         <width>191</width>
-         <height>351</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(0,0,0);</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_8">
@@ -1927,6 +1988,244 @@ color: #8A8A8A</string>
        <property name="text">
         <string>Devices</string>
        </property>
+      </widget>
+      <widget class="QWidget" name="humiWidget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>160</y>
+         <width>191</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#DACEB4</string>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>87</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>20</number>
+         </property>
+         <property name="topMargin">
+          <number>2</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Đèn   </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Bơm</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Khuấy</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Tưới</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>CO2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_21">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Xả</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_22">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>15</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>RO</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>105</x>
+          <y>0</y>
+          <width>91</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="light_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_on.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="pump_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="khuay_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="tuoi_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="co2_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="xa_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="ro_state_2">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/icon_state_off.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
       </widget>
      </widget>
     </widget>
