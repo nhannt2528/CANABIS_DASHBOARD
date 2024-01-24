@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_PREFIX_PATH %{Qt:QT_INSTALL_PREFIX})
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets SerialBus SerialPort)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets SerialBus SerialPort Network )
 
 set(PROJECT_SOURCES
     main.cpp
@@ -41,6 +41,7 @@ else()
         icon/button_on.png
         Resource.qrc
         modbusRtu/modbusrtu.cpp modbusRtu/modbusrtu.h
+        MqttService/mqttservice.cpp MqttService/mqttservice.h
 
 
 
@@ -52,6 +53,7 @@ target_link_libraries(CANABIS_DASHBOARD PRIVATE
     Qt${QT_VERSION_MAJOR}::Widgets
     Qt${QT_VERSION_MAJOR}::SerialBus
     Qt${QT_VERSION_MAJOR}::SerialPort
+    Qt${QT_VERSION_MAJOR}::Network
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
